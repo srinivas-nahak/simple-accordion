@@ -29,7 +29,7 @@ function App() {
     if (index !== undefined && index === selected) {
       return {
         transform: "scaleY(1)",
-        //maxHeight: "999px",
+        maxHeight: "999px",
         //transition: "all 0.5s cubic-bezier(0, 1, 0, 1)",
       };
     }
